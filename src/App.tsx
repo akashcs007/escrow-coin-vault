@@ -9,6 +9,7 @@ import Dashboard from "./pages/Dashboard";
 import Profile from "./pages/Profile";
 import TransactionHistory from "./pages/TransactionHistory";
 import NotFound from "./pages/NotFound";
+import { analytics } from "./lib/firebase";
 
 const queryClient = new QueryClient();
 
